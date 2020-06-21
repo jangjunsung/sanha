@@ -1,0 +1,177 @@
+#frame {
+    border: 1px solid black;
+    margin: 0px auto;
+    width: 1200px;
+    height: 900px;
+}
+
+.subFrame {
+    border: 0px solid black;
+    width: 590px;
+    height: 800px;
+    float: left;
+}
+
+#date {
+    border: 0px solid black;
+    width: 550px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#date > div:nth-child(1) {
+    border: 0px solid black;
+    background-color: #ccc;
+    width: 100px;
+    margin-right: 10px;
+    text-align: right;
+}
+
+#date > div {
+    float: left;
+}
+#date > span {
+    float: left;
+}
+
+.inputBox {
+    border: 0px solid black;
+    width: 150px;
+    height: 30px;
+}
+
+.input {
+    width: 120px;
+    height: 19px;
+    float: left;
+}
+
+.btn {
+    background-color: white;
+    border: 1px solid black;
+    height: 23px;
+    float: left;
+}
+
+#search {
+    background-color: #ccc;
+    position: relative;
+    left: 20px;
+    border: 5px double black;
+    width: 80px;
+}
+
+#dateOut {
+    border: 0px solid black;
+    width: 500px;
+    margin-left: 20px;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#calendar {
+    margin-left: 20px;
+    width: 500px;
+}
+
+#calendar tr {
+    /* border: 1px solid black; */
+    border-collapse: collapse;
+    margin-top: -1px;
+    float: left;
+}
+
+#calendar td {
+    border: 1px solid black;
+    text-align: center;
+    width: 66px;
+    height: 40px;
+    border-collapse: collapse;
+    /* float: left; */
+}
+
+#clickBtn {
+    margin-left: 20px;
+    width: 500px;
+    height: 120px;
+}
+
+#clickBtn > div{
+    border: 0px solid black;
+    width: 60px;
+    margin-top: 20px;
+    float: left;
+}
+
+#clickBtn > div:nth-child(1) {
+    margin-left: 180px;
+    margin-right: 20px;
+}
+
+#clickBtn > div > button {
+    border: 0px;
+    background-color: white;
+    font-size: 2.5em;
+    color: blue
+}
+
+#clickBtn > div > span {
+    font-size: 1.5em;
+    width: 60px;
+    display: block;
+    text-align: center;
+}
+
+#outBtn {
+    margin-left: 20px;
+    width: 500px;
+    padding-top: 10px;
+}
+
+#outBtn > span {
+    width: 40px;
+    text-align: right;
+    display: inline-block;
+}
+
+#outBtn > button {
+    margin-left: 20px;
+    position: relative;
+    background-color: #ccc;
+    border: 5px double black;
+    left: 350px;
+    width: 90px;
+    height: 30px;
+}
+
+#output table {
+    text-align: center;
+}
+
+
+#output td {
+    border: 0px solid black;
+    float: left;
+    margin-left: 1px;
+    width: 187px;
+    height: 30px;
+    background-color: white;
+}
+
+#output tr:nth-child(even) td {
+    background-color: #D0D8E8;
+}
+
+#output tr:nth-child(odd) td {
+    background-color: #E9EDF4;
+}
+
+#output tr:nth-child(1) td {
+    background-color: #4F81BD;
+    margin-bottom: 3px;
+    font-weight: bold;
+    font-size: 1.1em;
+    color: white;
+}
